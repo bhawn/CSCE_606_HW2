@@ -7,7 +7,23 @@ class MoviesController < ApplicationController
     end
   
     def index
-      @movies = Movie.all
+      # session persists only as long as page is open?
+      # session.clear
+      session[:sortCol] = params[:sortCol] || session[:sortCol] || nil                  # params else session else nothing,
+      if !['title', 'release_date', nil].include?(session[:sortCol])                    # make sure input matches allowed values. 
+        session[:sortCol] = nil
+      end
+      
+      @movies = session[:sortCol].blank? ? Movie.all : Movie.all.order("LOWER(#{session[:sortCol]})") # if no sortCol then all movies else order movies.
+      @all_ratings = Movie.get_ratings
+      session[:ratings] = params[:ratings] || session[:ratings] || @all_ratings           # params else session else all
+      @movies = @movies.with_ratings(session[:ratings])                                   # get movie ratings. (all or some never none)
+      
+      if session[:ratings] != params[:ratings] || session[:sortCol] != params[:sortCol]   # fill in params from session if not exist
+        flash.keep
+        redirect_to movies_path(sortCol: session[:sortCol], ratings: session[:ratings])
+      end
+
     end
   
     def new
