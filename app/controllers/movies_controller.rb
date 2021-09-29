@@ -13,8 +13,8 @@ class MoviesController < ApplicationController
       if !['title', 'release_date', nil].include?(session[:sortCol])                    # make sure input matches allowed values. 
         session[:sortCol] = nil
       end
-      
-      @movies = session[:sortCol].blank? ? Movie.all : Movie.all.order("LOWER(#{session[:sortCol]})") # if no sortCol then all movies else order movies.
+      # puts Movie.find(:all, :order => "LOWER(#{session[:sortCol]})")
+      @movies = session[:sortCol].blank? ? Movie.all : Movie.all.order("LOWER(CAST(#{session[:sortCol]} AS text))") # if no sortCol then all movies else order movies.
       @all_ratings = Movie.get_ratings
       session[:ratings] = params[:ratings] || session[:ratings] || @all_ratings           # params else session else all
       @movies = @movies.with_ratings(session[:ratings])                                   # get movie ratings. (all or some never none)
