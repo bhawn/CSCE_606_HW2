@@ -16975,3 +16975,1127 @@ Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.
 
 Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 2.56.188.39 at 2021-09-29 19:07:00 +0000
 Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date" for 2.56.188.39 at 2021-09-29 19:16:06 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"release_date"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(release_date AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 58ms (Views: 37.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 2.56.188.39 at 2021-09-29 19:16:06 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 2.56.188.39 at 2021-09-29 19:16:06 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 2.56.188.39 at 2021-09-29 19:16:06 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 2.56.188.39 at 2021-09-29 19:16:06 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date" for 2.56.188.39 at 2021-09-29 19:16:08 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"release_date"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(release_date AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 2.56.188.39 at 2021-09-29 19:16:08 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 2.56.188.39 at 2021-09-29 19:16:08 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 2.56.188.39 at 2021-09-29 19:16:08 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 2.56.188.39 at 2021-09-29 19:16:08 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 2.56.188.39 at 2021-09-29 19:19:28 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date
+Completed 302 Found in 11ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date" for 2.56.188.39 at 2021-09-29 19:19:28 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"release_date"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(release_date AS text))
+  Rendered movies/index.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 27.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies?sortCol=title" for 2.56.188.39 at 2021-09-29 19:19:32 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortCol"=>"title"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:19:32 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 29.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/7" for 2.56.188.39 at 2021-09-29 19:19:39 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mMovie Load (20.9ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered movies/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 76ms (Views: 15.0ms | ActiveRecord: 20.9ms)
+
+
+Started DELETE "/movies/7" for 2.56.188.39 at 2021-09-29 19:19:41 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"RjN/P4r3xW/l0mqol/AavjiCdybzzTOz2uhxVIf1gNSjDBI+PPHCiAgV33xHkUryuu6mycjWOpaBJlfZ7eyYPg==", "id"=>"7"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 7]]
+  [1m[35m (4.1ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 9ms (ActiveRecord: 4.5ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:19:41 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:19:41 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/1" for 2.56.188.39 at 2021-09-29 19:19:44 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered movies/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/movies/1" for 2.56.188.39 at 2021-09-29 19:19:45 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+1UJV3UVMWVYLE6WAOua0vxZ6L2M+iixkZ1u67jBADMeamRWwxM2grXr+0LQisqefjU5UrfhIZTKU0hm0tgY2Q==", "id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 1]]
+  [1m[35m (4.0ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 8ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:19:46 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:19:46 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/6" for 2.56.188.39 at 2021-09-29 19:19:48 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered movies/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/movies/6" for 2.56.188.39 at 2021-09-29 19:19:50 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GMG7PSBTOP4Jri4DO2J89dM4sogpqANv5uUzHOJZiMP9/tY8llU/GeRpm9frAyy5UVRjZxKzCkq9KxWRiECQKQ==", "id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 6]]
+  [1m[35m (4.9ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 9ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:19:50 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:19:51 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/10" for 2.56.188.39 at 2021-09-29 19:19:52 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered movies/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/movies/10" for 2.56.188.39 at 2021-09-29 19:19:54 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"fl8GbQkAhvAXWcacM15Hjrf4MXW3y83AxWd/2uX/HOKbYGtsvwaBF/qec0jjPxfCNZTgmozQxOWeqVlXj+YECA==", "id"=>"10"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 10]]
+  [1m[35m (3.4ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 8ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:19:54 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:19:54 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/5" for 2.56.188.39 at 2021-09-29 19:19:56 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered movies/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/movies/5" for 2.56.188.39 at 2021-09-29 19:19:58 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"30kGzinpX49Ruxa/hWYac0vDCiXZOZZ7rJhqHXI7JYs6dmvPn+9YaLx8o2tVB0o/ya/byuIin173VkyQGCI9YQ==", "id"=>"5"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 5]]
+  [1m[35m (4.0ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 8ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:19:58 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:19:58 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 17.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/11" for 2.56.188.39 at 2021-09-29 19:20:00 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 11]]
+  Rendered movies/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 45.6ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/movies/11" for 2.56.188.39 at 2021-09-29 19:20:02 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"McEK2WqWDFXnW81+ZM/w0cqkDE6VdSEsaxWbEKLjV6DU/mfY3JALsgqceKq0rqCdSMjdoa5uKAkw272dyPpPSg==", "id"=>"11"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 11]]
+  [1m[35m (5.8ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 10ms (ActiveRecord: 6.1ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:20:02 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:20:02 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 16.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/9" for 2.56.188.39 at 2021-09-29 19:20:05 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered movies/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/movies/9" for 2.56.188.39 at 2021-09-29 19:20:07 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lU7iOJviTL7bGflTGeT9u9WNQVhurUKE7LtnqBNy8cpwcY85LeRLWTbeTIfJha33V+GQt1W2S6G3dUEleWvpIA==", "id"=>"9"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 9]]
+  [1m[35m (3.5ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 9ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:20:07 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:20:07 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/4" for 2.56.188.39 at 2021-09-29 19:20:09 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered movies/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/movies/4" for 2.56.188.39 at 2021-09-29 19:20:11 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"tAdz8r/Hho/SPEOlVtOLFIDUc+Dr6tnSzPymlKpJ7NVROB7zCcGBaD/79nGGsttYAriiD9Dx0PeXMoAZwFD0Pw==", "id"=>"4"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 4]]
+  [1m[35m (4.4ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 13ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:20:11 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:20:11 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/19" for 2.56.188.39 at 2021-09-29 19:20:12 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered movies/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/movies/19" for 2.56.188.39 at 2021-09-29 19:20:14 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"MAWUikgWVrF1mp/XKeZKYCKZk7YLHltmN5VTgBux2nbVOvmL/hBRVphdKgP5hxosoPVCWTAFUkNsW3UNcajCnA==", "id"=>"19"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 19]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 19]]
+  [1m[35m (4.0ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 9ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:20:15 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:20:15 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/2" for 2.56.188.39 at 2021-09-29 19:20:17 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered movies/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/movies/2" for 2.56.188.39 at 2021-09-29 19:20:19 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"WhLZaHk00X0I5gnUoj71cxO9tZz7GiZDk8piEWELjhm/LbRpzzLWmuUhvAByX6U/kdFkc8ABL2bIBEScCxKW8w==", "id"=>"2"}
+  [1m[36mMovie Load (0.8ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 2]]
+  [1m[35m (4.1ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 8ms (ActiveRecord: 5.1ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:20:19 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:20:19 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/3" for 2.56.188.39 at 2021-09-29 19:20:21 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered movies/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/movies/3" for 2.56.188.39 at 2021-09-29 19:20:23 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"STVA0X4paVrS5tnKSb7NYdCusduhvAk2P3cDQ5UnrU6sCi3QyC9uvT8hbB6Z350tUsJgNJqnABNkuSXO/z61pA==", "id"=>"3"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 3]]
+  [1m[35m (6.3ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 11ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:20:23 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:20:23 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:20:28 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?sortCol=release_date" for 2.56.188.39 at 2021-09-29 19:20:30 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortCol"=>"release_date"}
+  [1m[35m (1.0ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date" for 2.56.188.39 at 2021-09-29 19:20:30 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"release_date"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(release_date AS text))
+  Rendered movies/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/new" for 2.56.188.39 at 2021-09-29 19:20:44 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#new as HTML
+  Rendered movies/new.html.erb within layouts/application (25.2ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/movies" for 2.56.188.39 at 2021-09-29 19:20:47 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1oJZHGukAgj9pl9CmAEznHEobKjPio95VSNt/ioXfkUzvTQd3aIF7xBh6pZIYGPQ80S9R/SRhlwO7UtzQA5mrw==", "movie"=>{"title"=>"D", "rating"=>"G", "release_date(1i)"=>"2021", "release_date(2i)"=>"9", "release_date(3i)"=>"29"}, "commit"=>"Save Changes"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "D"], ["rating", "G"], ["release_date", "2021-09-29 00:00:00.000000"], ["created_at", "2021-09-29 19:20:47.550513"], ["updated_at", "2021-09-29 19:20:47.550513"]]
+  [1m[36m (5.2ms)[0m  [1mcommit transaction[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 14ms (ActiveRecord: 6.7ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:20:47 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date" for 2.56.188.39 at 2021-09-29 19:20:47 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"release_date"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(release_date AS text))
+  Rendered movies/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 15.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?sortCol=title" for 2.56.188.39 at 2021-09-29 19:20:49 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortCol"=>"title"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:20:49 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/22" for 2.56.188.39 at 2021-09-29 19:22:08 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 22]]
+  Rendered movies/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 16.3ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/movies/22" for 2.56.188.39 at 2021-09-29 19:22:11 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wUi14/q0/W64i7ZtdHAWGNLrrMOkWUks/4vJUPsUE7Akd9jiTLL6iVVMA7mkEUZUUId9LJ9CQAmkRe/dkQ0LWg==", "id"=>"22"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 22]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 22]]
+  [1m[35m (4.9ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 9ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:22:11 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:22:11 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?sortCol=release_date" for 2.56.188.39 at 2021-09-29 19:22:27 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortCol"=>"release_date"}
+  [1m[35m (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date" for 2.56.188.39 at 2021-09-29 19:22:27 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"release_date"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(release_date AS text))
+  Rendered movies/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 35.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies/new" for 2.56.188.39 at 2021-09-29 19:22:30 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#new as HTML
+  Rendered movies/new.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/movies" for 2.56.188.39 at 2021-09-29 19:22:33 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ET+lzdHWDn3fY/qAyQcqLlRxnQXAwJkgjSmQjcd0Hon0AMjMZ9AJmjKkT1QZZnpi1h1M6vvbkAXW57YArW0GYw==", "movie"=>{"title"=>"S", "rating"=>"G", "release_date(1i)"=>"2021", "release_date(2i)"=>"9", "release_date(3i)"=>"29"}, "commit"=>"Save Changes"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "S"], ["rating", "G"], ["release_date", "2021-09-29 00:00:00.000000"], ["created_at", "2021-09-29 19:22:33.379739"], ["updated_at", "2021-09-29 19:22:33.379739"]]
+  [1m[36m (4.7ms)[0m  [1mcommit transaction[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 11ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:22:33 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date" for 2.56.188.39 at 2021-09-29 19:22:33 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"release_date"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(release_date AS text))
+  Rendered movies/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 28.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=R&commit=Refresh" for 2.56.188.39 at 2021-09-29 19:22:35 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>["G", "PG", "R"], "commit"=>"Refresh"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=R&sortCol=release_date
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=R&sortCol=release_date" for 2.56.188.39 at 2021-09-29 19:22:35 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "R"], "sortCol"=>"release_date"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R')  ORDER BY LOWER(CAST(release_date AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=R&commit=Refresh" for 2.56.188.39 at 2021-09-29 19:23:21 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>["G", "PG", "R"], "commit"=>"Refresh"}
+  [1m[35m (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R')  ORDER BY LOWER(CAST(release_date AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 21.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/movies/23" for 2.56.188.39 at 2021-09-29 19:23:23 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 23]]
+  Rendered movies/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/movies/23" for 2.56.188.39 at 2021-09-29 19:23:25 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Sq9qcUZNvQXlGbZtp8gTOEcjMAzrXVARHzs2NXzNtsyvkAdw8Eu64gjeA7l3qUN0xU/h49BGWTRE9RC4FtSuJg==", "id"=>"23"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 23]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 23]]
+  [1m[35m (4.3ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 9ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:23:25 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R')  ORDER BY LOWER(CAST(release_date AS text))
+  Rendered movies/index.html.erb within layouts/application (16.6ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/new" for 2.56.188.39 at 2021-09-29 19:23:56 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#new as HTML
+  Rendered movies/new.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/movies" for 2.56.188.39 at 2021-09-29 19:23:59 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Vu4+FWUmdkkRPLnUj6rayTWEPhEpr+0+MZqzISglvmez0VMU0yBxrvz7DABfy4qFt+jv/hK05BtqVJWsQjymjQ==", "movie"=>{"title"=>"s", "rating"=>"G", "release_date(1i)"=>"2021", "release_date(2i)"=>"9", "release_date(3i)"=>"29"}, "commit"=>"Save Changes"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.8ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "s"], ["rating", "G"], ["release_date", "2021-09-29 00:00:00.000000"], ["created_at", "2021-09-29 19:23:59.868938"], ["updated_at", "2021-09-29 19:23:59.868938"]]
+  [1m[36m (4.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 19ms (ActiveRecord: 9.4ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:23:59 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35m (1.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=R&sortCol=release_date
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=R&sortCol=release_date" for 2.56.188.39 at 2021-09-29 19:23:59 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "R"], "sortCol"=>"release_date"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R')  ORDER BY LOWER(CAST(release_date AS text))
+  Rendered movies/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 29.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?sortCol=title" for 2.56.188.39 at 2021-09-29 19:24:35 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortCol"=>"title"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:24:35 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "R"], "sortCol"=>"title"}
+  [1m[35m (1.5ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 15.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:25:06 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:25:06 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "R"], "sortCol"=>"title"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R')  ORDER BY LOWER(CAST(title AS text))
+  Rendered movies/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/movies/24" for 2.56.188.39 at 2021-09-29 19:25:16 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 24]]
+  Rendered movies/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/movies/24" for 2.56.188.39 at 2021-09-29 19:25:21 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hjZ3woBif3P6dbgZDxcm6ll8UMRUwXHnTTZPW3UXywxjCRrDNmR4lBeyDc3fdnam2xCBK2/aeMIW+GnWHw7T5g==", "id"=>"24"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 24]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.1ms)[0m  DELETE FROM "movies" WHERE "movies"."id" = ?  [["id", 24]]
+  [1m[36m (9.9ms)[0m  [1mcommit transaction[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 16ms (ActiveRecord: 12.2ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:25:21 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:25:21 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "R"], "sortCol"=>"title"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R')  ORDER BY LOWER(CAST(title AS text))
+  Rendered movies/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5B%5D=G&ratings%5B%5D=PG&commit=Refresh" for 2.56.188.39 at 2021-09-29 19:28:59 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>["G", "PG"], "commit"=>"Refresh"}
+  [1m[36m (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&sortCol=title
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&sortCol=title" for 2.56.188.39 at 2021-09-29 19:28:59 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG"], "sortCol"=>"title"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 34.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:31:11 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[35m (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (12.3ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 38.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/movies/new" for 2.56.188.39 at 2021-09-29 19:31:14 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#new as HTML
+  Rendered movies/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/movies" for 2.56.188.39 at 2021-09-29 19:31:16 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"maE2HMeP2SPNShr2K3tHt0fu8tubMoeHskp2dy4Hqo58nlsdcYnexCCNryL7Ghf7xYIjNKApjqLphFD6RB6yZA==", "movie"=>{"title"=>"ddd", "rating"=>"G", "release_date(1i)"=>"2021", "release_date(2i)"=>"9", "release_date(3i)"=>"29"}, "commit"=>"Save Changes"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (3.8ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "ddd"], ["rating", "G"], ["release_date", "2021-09-29 00:00:00.000000"], ["created_at", "2021-09-29 19:31:16.798462"], ["updated_at", "2021-09-29 19:31:16.798462"]]
+  [1m[35m (8.1ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 34ms (ActiveRecord: 12.0ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:31:16 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))
+  Rendered movies/index.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 15.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/movies/25" for 2.56.188.39 at 2021-09-29 19:31:35 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 25]]
+  Rendered movies/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 15.5ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/movies/25" for 2.56.188.39 at 2021-09-29 19:31:39 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"rqAhMnO2sTwJG/ZKg3VvXm6VeNsVLmDgyn80KbnmZdRLn0wzxbC22+TcQ55TFD8S7PmpNC41acWRsRKk0/99Pg==", "id"=>"25"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 25]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "movies" WHERE "movies"."id" = ?  [["id", 25]]
+  [1m[36m (3.9ms)[0m  [1mcommit transaction[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 10ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:31:39 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:31:39 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))
+  Rendered movies/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:32:56 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[36m (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))
+  Rendered movies/index.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 19.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/movies/new" for 2.56.188.39 at 2021-09-29 19:32:58 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#new as HTML
+  Rendered movies/new.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/movies" for 2.56.188.39 at 2021-09-29 19:33:01 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x8n88N3w/pU7fhMi0KbG/eTanBCgga85VpDC84T/XR8i9pHxa/b5cta5pvYAx5axZrZN/5uaphwNXuR+7uZF9Q==", "movie"=>{"title"=>"d", "rating"=>"G", "release_date(1i)"=>"2021", "release_date(2i)"=>"9", "release_date(3i)"=>"29"}, "commit"=>"Save Changes"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.3ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "d"], ["rating", "G"], ["release_date", "2021-09-29 00:00:00.000000"], ["created_at", "2021-09-29 19:33:01.902102"], ["updated_at", "2021-09-29 19:33:01.902102"]]
+  [1m[36m (5.4ms)[0m  [1mcommit transaction[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 13ms (ActiveRecord: 7.8ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:33:01 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35m (1.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title
+Completed 302 Found in 18ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=title" for 2.56.188.39 at 2021-09-29 19:33:02 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"title"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(title AS text))
+  Rendered movies/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?sortCol=release_date" for 2.56.188.39 at 2021-09-29 19:33:03 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortCol"=>"release_date"}
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date" for 2.56.188.39 at 2021-09-29 19:33:03 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"release_date"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(release_date AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies/26" for 2.56.188.39 at 2021-09-29 19:33:05 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"26"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 26]]
+  Rendered movies/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/movies/26" for 2.56.188.39 at 2021-09-29 19:33:10 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dd7lv9s8benAbJTxMLt19qhQwMae5IBHqaUgjNPxW86Q4Yi+bTpqDi2rISXg2iW6KjwRKaX/iWLyawYBuehDJA==", "id"=>"26"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 26]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.8ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 26]]
+  [1m[35m (4.5ms)[0m  commit transaction
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies
+Completed 302 Found in 11ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/movies" for 2.56.188.39 at 2021-09-29 19:33:10 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+Redirected to https://4d6e23f0549e4a4dbbd0ca4e4895e91f.vfs.cloud9.us-east-1.amazonaws.com/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?ratings%5B%5D=G&ratings%5B%5D=PG&ratings%5B%5D=PG-13&ratings%5B%5D=R&sortCol=release_date" for 2.56.188.39 at 2021-09-29 19:33:10 +0000
+Cannot render console from 2.56.188.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>["G", "PG", "PG-13", "R"], "sortCol"=>"release_date"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"  ORDER BY "movies"."rating" ASC
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')  ORDER BY LOWER(CAST(release_date AS text))[0m
+  Rendered movies/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.3ms)

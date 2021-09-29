@@ -7,23 +7,19 @@ class MoviesController < ApplicationController
     end
   
     def index
-      # session persists only as long as page is open?
       # session.clear
       session[:sortCol] = params[:sortCol] || session[:sortCol] || nil                  # params else session else nothing,
       if !['title', 'release_date', nil].include?(session[:sortCol])                    # make sure input matches allowed values. 
         session[:sortCol] = nil
       end
-      # puts Movie.find(:all, :order => "LOWER(#{session[:sortCol]})")
-      @movies = session[:sortCol].blank? ? Movie.all : Movie.all.order("LOWER(CAST(#{session[:sortCol]} AS text))") # if no sortCol then all movies else order movies.
+      @movies = session[:sortCol].blank? ? Movie.all : Movie.all.order("LOWER(CAST(#{session[:sortCol]} AS text))") # if no sortCol then all movies else order movies case insensitive. cast needed with heroku some reason
       @all_ratings = Movie.get_ratings
       session[:ratings] = params[:ratings] || session[:ratings] || @all_ratings           # params else session else all
       @movies = @movies.with_ratings(session[:ratings])                                   # get movie ratings. (all or some never none)
-      
-      if session[:ratings] != params[:ratings] || session[:sortCol] != params[:sortCol]   # fill in params from session if not exist
-        flash.keep
+      if session[:ratings] != params[:ratings] || session[:sortCol] != params[:sortCol]   # fill in params from session if params not exist. (only works if params not present. if params exist then no redirect)
+        flash.keep                                                                        # cant seem to see a difference with flash.keep versus not. 
         redirect_to movies_path(sortCol: session[:sortCol], ratings: session[:ratings])
       end
-
     end
   
     def new
